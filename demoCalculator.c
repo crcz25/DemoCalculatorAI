@@ -1,13 +1,14 @@
-#include <stdlib.h> 
-#include <stdio.h> 
+#include <stdlib.h> //Standard library
+#include <stdio.h> //Standard input / output
 
-int main(int argc, char const *argv[]) {
-    int a = 0, b = 0, result;
+int main() {
+    int a = 0;
+    int b = 0;
 
     scanf("%i%*c", &a);
     scanf("%i%*c", &b);
 
-    result = a + b;
+    int result = a + b;
 
     printf("%i", result);
 
