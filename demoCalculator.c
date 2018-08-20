@@ -4,8 +4,8 @@
 int main(int argc, char const *argv[]) {
     int a = 0, b = 0, result;
 
-    scanf("%d", &a);
-    scanf("%d", &b);
+    scanf("%i%*c", &a);
+    scanf("%i%*c", &b);
 
     result = a + b;
 
